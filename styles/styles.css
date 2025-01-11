@@ -1,0 +1,150 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+/* font */
+
+.open-sans-primary {
+  font-family: "Open Sans", serif;
+  font-optical-sizing: auto;
+  font-weight: normal;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+
+/* shared style */
+section{
+    width: 1280px;
+    margin: 0 auto;
+    margin-top:50px;
+    
+}
+.btn-primary{
+    background-color: green;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    color: white;
+    font-size: 18px;
+    font-weight: 600;
+    margin: 20px 0;
+}
+.section-title{
+    font-size: 35px;
+    font-weight: 800;
+    margin-bottom: 20px;
+}
+
+
+
+/* nav style */
+header{
+    width:1280px; 
+    margin: 0 auto;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+.nav-title{
+    font-size: 32px;
+    font-weight: 700;
+    
+
+
+}
+.nav-btn{
+    padding:10px 20px;
+    border-radius: 5px;
+    border: solid green 0.5px;
+    background-color: white;
+}
+.nav-btn a{
+    font-style: normal;
+    text-decoration: none;
+    font-size: 16px;
+    color: green;
+}
+
+
+/* hero styles */
+.hero-section{
+    border-radius: 24px;
+
+background: rgb(198, 228, 214);
+padding: 50PX 0;
+
+
+}
+
+.hero-container{
+    width: 80%;
+    display: flex;
+    align-items: center;
+    margin: 0 AUTO;
+    justify-content: space-between;
+    margin-top:;
+}
+.hero-discription{
+    
+}
+.hero-discription>h6{
+    font-size: 24px;
+    color: gray;
+}
+.hero-discription>h2{
+    font-size: 46px;
+    font-weight: 700;
+}
+
+.hero-img> img{
+padding-left: 50px;
+}
+
+/* future gaol styles */
+
+.section-description {
+    font-size: 17px;
+    font-weight: 500;
+    color: darkgray;
+    margin-bottom: 20px;
+}
+.future-container{
+    display: flex;
+    justify-content: space-between;
+    gap:20px;
+
+
+}
+.future-goal{
+    padding: 40px 30px;
+    border: 1px solid black;
+    border-radius: 10px;
+    width: 33%;
+    
+}
+.future-goal> h4{
+    font-size: 20px;
+    font-weight: 700;
+    margin: 10px 0;
+}
+.btn-color-1{
+    background-color: blue;
+    
+}
+.btn-color-3{
+    background-color: orange;
+}
+.cart-color-1{
+    background: rgba(84, 144, 245, 0.2);
+}
+.cart-color-2{
+    background: rgb(198, 228, 214);
+}
+.cart-color-3{
+    background: rgb(247, 235, 207);
+}
+
