@@ -220,3 +220,32 @@ padding-left: 50px;
 .donate-today{
     padding: 0 100px;
 }
+.news-letter{
+    width: 750px;
+    margin: 0 auto;
+    text-align: center
+}
+#sub-email{
+    width: 65%;
+    padding: 10px 30px;
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+.btn-sub{
+    background-color: green;
+    border: none;
+    border-radius: 0 5px 5px 0;
+    padding: 12px 20px;
+    color: white;
+    font-size: 18px;
+    font-weight: 600;
+    margin-left: -5px;
+    
+}
+.newslatter{
+    border-radius: 24px;
+
+background: rgb(198, 228, 214);
+padding: 50PX 0;
+}
