@@ -155,6 +155,25 @@ padding-left: 50px;
 }
 
 
+/* yunus code */
+.yunus-section{
+    background-color: white;
+    padding: 40px 20px;
+    border-radius: 24px;
+   
+}
+.yunus-code{
+    width: 1230px;
+    background: url(../assets/quote-bg.png);
+    background-repeat: no-repeat;
+    
+    
+    
+}
+#yunus{
+    font-size: 24px;
+    font-weight: 700;
+}
 /* news-container */
 .news-container{
     padding: 60px 20px;
