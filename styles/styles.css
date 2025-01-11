@@ -166,6 +166,7 @@ padding-left: 50px;
     width: 1230px;
     background: url(../assets/quote-bg.png);
     background-repeat: no-repeat;
+    background-position: 0 -10px;
     
     
     
@@ -174,6 +175,8 @@ padding-left: 50px;
     font-size: 24px;
     font-weight: 700;
 }
+
+
 /* news-container */
 .news-container{
     padding: 60px 20px;
@@ -206,6 +209,9 @@ padding-left: 50px;
 .news-2> img {
     margin-bottom: 20px;
 }
+
+/* donate styles */
+
 .donate-containar{
     display: flex;
     justify-content: space-between;
@@ -244,6 +250,7 @@ padding-left: 50px;
     margin: 0 auto;
     text-align: center
 }
+/* newslatter style */
 #sub-email{
     width: 65%;
     padding: 10px 30px;
@@ -267,4 +274,18 @@ padding-left: 50px;
 
 background: rgb(198, 228, 214);
 padding: 50PX 0;
+}
+
+/* footer style */
+
+.foot-title{
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
+.social-container{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin: 20px 0;
 }
